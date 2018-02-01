@@ -31,8 +31,6 @@ public class GuestDao {
 
 	}
 
-	
-
 	public void delete2(String pass, int no) { // 삭제에 해당하는 번호의 테이블의 비밀번호와 사용자입력비밀번호가 맞을경우 삭제
 		Map<String, Object> map = new HashMap<String, Object>();
 		map.put("no", no);
